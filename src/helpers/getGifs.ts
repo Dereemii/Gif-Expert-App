@@ -1,4 +1,4 @@
-import { Gifs } from "../types/interface";
+import { Gifs } from "../types/Gifs";
 
 export const getGifts = async (category: string) => {
   const url = `https://api.giphy.com/v1/gifs/search?api_key=y7LYXMsAJgPSae078dsArJ5Cujl0a7r4&q=${category}&limit=20`;
