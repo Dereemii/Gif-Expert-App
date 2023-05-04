@@ -5,7 +5,7 @@ type Props = {
   category: string;
 };
 
-export const GiftGrid: React.FC<Props> = ({ category }) => {
+export const GifGrid: React.FC<Props> = ({ category }) => {
   
   useEffect(() => {
     getGifts(category);
