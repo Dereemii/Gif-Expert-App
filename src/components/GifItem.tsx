@@ -1,7 +1,6 @@
 import { GifGridProps } from "../types/GifGridProps";
 
 export const GifItem = ({ title, url }: GifGridProps) => {
-  console.log(title, url);
 
   return (
     <div className="card">

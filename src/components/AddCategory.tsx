@@ -6,7 +6,7 @@ type Props = {
 };
 
 export const AddCategory: React.FC<Props> = ({ onNewCategory }) => {
-  const [inputValue, setInputValue] = useState("One punch");
+  const [inputValue, setInputValue] = useState("hello kitty");
 
   const onInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setInputValue(event.target.value);
